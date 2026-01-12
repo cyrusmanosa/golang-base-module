@@ -1,4 +1,4 @@
-# Toolkit
+# Base Module
 
 A simple example of how to create a reusable Go module with commonly used tools.
 
@@ -16,4 +16,4 @@ The included tools are:
 
 ## Installation
 
-`go get -u github.com/cyrusmanosa/toolkit`
+`go get -u github.com/cyrusmanosa/golang-base-module`
