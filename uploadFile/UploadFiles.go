@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	Crete "v2/createDirIfNotExist"
-	Random "v2/randomData"
+	Crete "golangBaseModule/createDirIfNotExist"
+	Random "golangBaseModule/randomData"
 )
 
 func (t *UploadTools) UploadFiles(r *http.Request, uploadDir string, rename ...bool) ([]*UploadedFile, error) {
